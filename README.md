@@ -18,6 +18,10 @@ data visualizations of species occurrence and abundance by year
 getting started - create script to load landbird data from NEON Konza site in Kansas - calculate total abundance by 
 species by year - secondary data product is 3D array of total count referenced species x site x year
 
+write loader function in plpgsql. load trigger on new data. analytics 
+product is integer fact table with four columns: year, species, field site and 
+site, and total count. Two dimension tables needed are species and fiel
+
 quick front end with R shiny to generate frequency plot showing total counts vs year for each species x park
 
 Downloaded all years for Konza. Folder organization is by NEON station by year. Each folder contains 
