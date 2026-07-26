@@ -1,7 +1,7 @@
 # avian-analytics
 
 landbird data into data warehouse for simple population and community analytics using PostgreSQL plpgsql
-and data visualizations in R
+and data visualizations in R ggplot
 
 # dataset
 
