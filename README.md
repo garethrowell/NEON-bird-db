@@ -20,7 +20,7 @@ species by year - secondary data product is 3D array of total count referenced s
 
 write loader function in plpgsql. load trigger on new data. analytics 
 product is integer fact table with four columns: year, species, field site and 
-site, and total count. Two dimension tables needed are species and fiel
+site, and total count. Two dimension tables needed are species and field sites.
 
 quick front end with R shiny to generate frequency plot showing total counts vs year for each species x park
 
