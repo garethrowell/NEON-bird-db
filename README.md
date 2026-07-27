@@ -21,7 +21,7 @@ data visualizations of species occurrence and abundance by year.
 write loader function in plpgsql. load trigger on new data. analytics 
 product is integer fact table with four columns: year, species, field site, and total count. 
 Two dimension tables needed are species and field sites.
-data visualization in R ggplot. Input variables supplied in bash script.
+data visualization in Python Matplotlib. Input variables supplied in bash script.
 
 # notes
 
