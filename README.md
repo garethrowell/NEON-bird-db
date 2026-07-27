@@ -13,15 +13,15 @@ NEON (National Ecological Observatory Network). Breeding landbird point counts (
 
 # purpose
 
-initial project to focus on creating pl/pgsql scripts to convert NEON landbird datasets into data warehouse to create
+initial project to focus on creating pl/pgsql scripts to convert NEON landbird datasets into data warehouse and to create
 data visualizations of species occurrence and abundance by year.
 
 # design 
 
 write loader function in plpgsql. load trigger on new data. analytics 
 product is integer fact table with four columns: year, species, field site, and total count. 
-Two dimension tables needed are species and field sites.
-data visualization in Python Matplotlib. Input variables supplied in bash script.
+two dimension tables needed are species and field sites.
+data visualization in Python Matplotlib. input variables supplied in bash script.
 
 # notes
 
@@ -31,7 +31,7 @@ species by year - secondary data product is 3D array of total count referenced s
 
 proof-of-concept: quick front end with R shiny to generate frequency plot showing total counts vs year for each species x park
 
-Downloaded all years for Konza. Folder organization is by NEON station by year. Each folder contains 
+downloaded all years for Konza. Folder organization is by NEON station by year. each folder contains 
 files containing categories, validation processes, bird point counts, site information, eml metadata, a
 readme file and list of variables.
 
