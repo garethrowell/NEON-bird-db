@@ -1,7 +1,7 @@
 # avian-analytics
 
 NEON landbird data into data warehouse for simple population and community analytics using PostgreSQL plpgsql
-and data visualizations in R ggplot
+with data visualizations; this project is being developed in PostgreSQL and R ggplot on Android Termux 
 
 # dataset
 
