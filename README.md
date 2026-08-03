@@ -23,7 +23,7 @@ product is integer fact table with four columns: year, species, field site, and 
 dimension tables needed are species and field sites.
 data visualization in Python Matplotlib. input variables supplied in bash script.
 
-proof-of-concept: simple Python script generating (1) species x field site occurrence matrix (heat map?) and (2) species abundance plots showing total species counts by year for each field site.
+proof-of-concept: simple Python script generating (1) species x field site occurrence matrix (species richness) and (2) species abundance plots showing total species counts by year for each field site.
 
 # notes
 
