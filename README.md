@@ -20,8 +20,10 @@ data visualizations of species occurrence and abundance by year.
 
 write loader function in plpgsql. load trigger on new data. analytics 
 product is integer fact table with four columns: year, species, field site, and total count. 
-two dimension tables needed are species and field sites.
+dimension tables needed are species and field sites.
 data visualization in Python Matplotlib. input variables supplied in bash script.
+
+proof-of-concept: simple Python script generating (1) species x field site occurrence matrix (heat map?) and (2) species abundance plots showing total species counts by year for each field site.
 
 # notes
 
@@ -29,9 +31,8 @@ getting started - create script to load landbird data from NEON Konza site in Ka
 species by year - secondary data product is 3D array of total count referenced species x site x year
 
 
-proof-of-concept: quick front end with R shiny to generate frequency plot showing total counts vs year for each species x park
 
-downloaded all years for Konza. Folder organization is by NEON station by year. each folder contains 
+downloaded all years for Konza. folder organization is by NEON station by year. each folder contains 
 files containing categories, validation processes, bird point counts, site information, eml metadata, a
 readme file and list of variables.
 
