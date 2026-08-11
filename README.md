@@ -21,7 +21,7 @@ database creator / data loader script - script to generate core bird observation
 total counts by species by year by field site - script to transform core bird observation table
 into bird fact table along with dimension tables for species and field sites - script to generate
 core sample site and site conditions table - script to transform core site data into site fact table
-along with necessary site condition fact tables
+along with necessary site condition dimension tables
 
 
 # data visualizations
