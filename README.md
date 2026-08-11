@@ -17,12 +17,16 @@ to convert NEON landbird datasets into small data warehouse and to create simple
 
 # design 
 
-write loader function in plpgsql. load trigger on new data. analytics 
-product is integer fact table with four columns: year, species, field site, and total count. 
-dimension tables needed are species and field sites.
-data visualization in Python Matplotlib. input variables supplied through occurrence matrix 
+method for database creator / data loader script - 
 
-proof-of-concept: simple Python script generating (1) species x field site occurrence matrix (species richness) and (2) species abundance plots showing total species counts by year for each field site.
+# data visualizations
+species abundance by year at each field site - total abundance of each species
+across all years at each site - abundance for one species across all sites -
+species by site occurrence matrix - trends analysis - histogram of trend slopes for all
+field sites for each speces - summary of trends for all species - technical report
+describing occurrence, abundance and trends of breeding bird species in NEON breeding
+bird count dataset
+
 
 # notes
 
