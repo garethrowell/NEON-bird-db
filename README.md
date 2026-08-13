@@ -24,18 +24,23 @@ core sample site and site conditions table - script to transform core site data 
 along with necessary site condition dimension tables
 
 
-# data visualizations
+# data analytics 
 
-species abundance by year at each field site - total abundance of each species
-across all years at each site - abundance for one species across all sites -
-species by site occurrence matrix - trends analysis - histogram of trend slopes for all
-field sites for each species - summary of trends for all species - technical report
-describing occurrence, abundance and trends of breeding bird species in NEON breeding
-bird point count dataset
+technical report - summary of occurrence, abundance and trends for all species in NEON breeding landbird point count data - including data visualizations 
+describing occurrence, abundance and trends of breeding - 
 
-site condition visualizations
+visualization details -
+species abundance by year at each field site - 
+total abundance of each species
+across all years at each site - 
+abundance for one species across all field sites -
+species by site occurrence matrix - 
+trends analysis - plots of trend slopes by Y intercept for all
+field sites for each species - 
 
-site by bird observation association visualizations
+site condition distributions - 
+
+site condition by bird abundance correlations
 
 # notes
 
