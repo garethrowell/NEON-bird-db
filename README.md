@@ -37,9 +37,7 @@ abundance for one species across all field sites -
 species by site occurrence matrix - 
 trends analysis - plots of trend slopes by Y intercept for all
 field sites for each species - 
-
 site condition distributions - 
-
 site condition by bird abundance correlations
 
 # notes
