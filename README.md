@@ -24,7 +24,7 @@ core sample site and site conditions table - script to transform core site data 
 along with necessary site condition dimension tables
 
 
-# data analytics 
+# data visualizations 
 
 summary of occurrence, abundance and trends for all species in NEON breeding landbird point count data - including data visualizations 
 describing occurrence, abundance and trends of breeding - 
