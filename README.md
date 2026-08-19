@@ -33,17 +33,12 @@ species abundance by year at each field site -
 total abundance of each species
 across all years at each site - 
 abundance for one species across all field sites -
-species by site occurrence matrix - trends analysis - plots of trend slopes by Y intercept for all
-field sites for each species - 
+species by site occurrence matrix - trends analysis - something that deals with 
+temporal autocorrelations non-parametric?
 site condition distributions - 
-site condition by bird abundance correlations
+site condition by bird abundance correlations?
 
 # notes
 
-getting started - create script to load landbird data from NEON Konza site in Kansas - calculate total abundance by 
-species by year - secondary data product is 3D array of total count referenced species x site x year
-
-downloaded all years for Konza. folder organization is by NEON station by year. each folder contains 
-files containing categories, validation processes, bird point counts, site information, eml metadata, a
-readme file and list of variables.
+getting started - create plpgsql function that loads one season of bird observations for Konza.
 
