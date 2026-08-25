@@ -40,5 +40,8 @@ site condition by bird abundance correlations?
 
 # notes
 
-getting started - create plpgsql function that loads one season of bird observations for Konza.
+getting started - 
+create plpgsql function that creates 
+a database called neon_birds 
+and loads one season of bird observations for Konza.
 
