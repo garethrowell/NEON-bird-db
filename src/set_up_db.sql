@@ -9,18 +9,20 @@ select * from pg_extension
 
 psql template1
 
-create database neonbirds;
+create database if not exists neonbirds;
 
 psql neonbirds
 
-\create schema dbo authorization gareth;
-\create schema fact authorization gareth;
-\create schema dim authorization gareth;
+create schema if not exists
+  dbo authorization gareth;
+create schema if not exists 
+  fact authorization gareth;
+create schema if not exists 
+  dim authorization gareth;
 
 \dn
 
 \q
-
 
 
 
