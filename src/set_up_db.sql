@@ -14,5 +14,13 @@ create database neonbirds;
 psql neonbirds
 
 \create schema dbo authorization gareth;
+\create schema fact authorization gareth;
+\create schema dim authorization gareth;
+
+\dn
+
+\q
+
+
 
 
