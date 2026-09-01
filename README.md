@@ -1,4 +1,4 @@
-# avian-analytics
+# NEON-bird-db
 
 NEON landbird data into data warehouse for simple population and community analytics
 with data visualizations; this project is being developed in PostgreSQL and Python on Android Termux.
