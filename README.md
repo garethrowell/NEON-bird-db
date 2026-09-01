@@ -17,26 +17,16 @@ to convert NEON landbird datasets into small data warehouse and to create simple
 
 # design 
 
-database creator / data loader script - script to generate core bird observation table containing
-total counts by species by year by field site - script to transform core bird observation table
-into bird fact table along with dimension tables for species and field sites - script to generate
-core sample site and site conditions table - script to transform core site data into site fact table
-along with necessary site condition dimension tables
+simple star design with fact tables for bird observations 
+and site conditions with dimension tables for species, 
+field stations, and categorical site condition factors.
+
 
 
 # data visualizations 
 
-summary of occurrence, abundance and trends for all species in NEON breeding landbird point count data - including data visualizations 
-describing occurrence, abundance and trends of breeding - 
-visualization details -
-species abundance by year at each field site - 
-total abundance of each species
-across all years at each site - 
-abundance for one species across all field sites -
-species by site occurrence matrix - trends analysis - something that deals with 
-temporal autocorrelations non-parametric?
-site condition distributions - 
-site condition by bird abundance correlations?
+initial visualizations will be developed 
+using Python Matplotlib.
 
 # notes
 
