@@ -13,7 +13,7 @@ NEON (National Ecological Observatory Network). Breeding landbird point counts (
 
 # purpose
 
-to convert NEON landbird datasets into small data warehouse and to create simple data visualization tools that describe the occurrence, abundance, and trends of bird species across NEON field sites.
+to convert NEON landbird datasets into small data warehouse and to create simple data visualizations that describe the occurrence, abundance, and trends of bird species across NEON field sites.
 
 # design 
 
