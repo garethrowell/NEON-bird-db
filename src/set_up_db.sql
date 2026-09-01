@@ -5,7 +5,7 @@
 \dx
 
 select * from pg_extension
-  where extname='plpgsql'
+  where extname='plpgsql';
 
 psql template1
 
