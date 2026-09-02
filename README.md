@@ -19,7 +19,7 @@ to convert NEON landbird datasets into small data warehouse and to create simple
 
 simple star design with fact tables for bird observations 
 and site conditions with dimension tables for species, 
-field stations, and categorical site condition factors.
+field stations, and categorical bird and site-condition factors.
 
 
 
