@@ -13,25 +13,25 @@ NEON (National Ecological Observatory Network). Breeding landbird point counts (
 
 # purpose
 
-to convert NEON landbird datasets into small data warehouse and to create simple data visualizations that describe the occurrence, abundance, and trends of bird species across NEON field sites.
+to convert NEON landbird datasets into a small data warehouse and to create simple data visualizations that describe the occurrence, abundance, and trends of bird species across NEON field sites.
 
 # design 
 
-simple star design with fact tables for bird observations 
-and site conditions with dimension tables for species, 
+the data warehouse will consist of a simple star design with (1) fact tables for bird observations 
+and site conditions and (2) with dimension tables for species, 
 field stations, and categorical bird and site-condition factors.
 
 
 
 # data visualizations 
 
-initial visualizations will be developed 
+visualizations will be developed 
 using Python Matplotlib.
 
 # notes
 
 getting started - 
-create plpgsql function that creates 
-a database called neon_birds 
+develop a plpgsql function that creates 
+a database called neonbirds 
 and loads one season of bird observations for Konza.
 
