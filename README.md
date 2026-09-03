@@ -17,11 +17,9 @@ to convert NEON landbird datasets into a small data warehouse and to create simp
 
 # design 
 
-the data warehouse will consist of a simple star design with (1) fact tables for bird observations 
+the data warehouse will consist of a simple star design with (1) a large fact table combining bird observations 
 and site conditions and (2) dimension tables for species, 
 field stations, and categorical bird and site-condition factors.
-
-
 
 # data visualizations 
 
