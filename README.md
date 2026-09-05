@@ -13,11 +13,7 @@ NEON (National Ecological Observatory Network). Breeding landbird point counts (
 
 # purpose
 
-to explore NEON landbird datasets with PostgreSQL; to 
-introduce ecological data scientists, with no prior 
-experience, to SQL coding and relational database design; 
-to provide an open source SQL code base for exploring 
-long-term ecological datasets. 
+to explore NEON landbird datasets with PostgreSQL. 
 
 
 # design 
