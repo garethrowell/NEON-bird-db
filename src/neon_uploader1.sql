@@ -1,7 +1,11 @@
 
-drop table dbo.birdobs;
+drop table if exists dbo.birdobs1;
 
-create table dbo.birdobs(
+
+create or replace function neon_uploader_v1
+
+
+create table dbo.birdobs1(
 	uid text, namedLocation text, domainID text,
 	siteID text, plotID text, plotType text, 
 	pointID integer, startDate text, 
