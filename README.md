@@ -34,3 +34,6 @@ develop a plpgsql function that creates
 a database called neonbirds 
 and loads one season of bird observations for Konza.
 
+load function working - neon_uploader2.sql
+next version need to upload all files 
+in a directory - appending to table dbo.birdobs 
